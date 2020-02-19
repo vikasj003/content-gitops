@@ -53,7 +53,7 @@ Then input the command to run flux:
 $ fluxctl install \
 --git-user=${GLUSER} \
 --git-email=${GLUSER}@gmail.com \
---git-url=git@gitlab.com:${GLUSER}/flux-sample \
+--git-url=git@gitlab.com:${GLUSER}/[your repo name here] \
 --git-path=namespaces,workloads \
 --namespace=flux | kubectl apply -f -
 ```
